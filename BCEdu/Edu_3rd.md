@@ -248,7 +248,7 @@ $ node registerUser.js
 
 	
 
-### 특정 항목 대한 정보 출력
+### 2. 특정 항목 대한 정보 출력
   - 기존 query.js 파일을 queryCar.js 로 수정하여 request부분의 fnc부분과 args 부분을 수정
   ```
 $ cp query.js queryCar.js

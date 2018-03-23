@@ -288,7 +288,7 @@ Response is  {"colour":"violet","make":"Fiat","model":"Punto","owner":"Pari"}
   ```
 
 ### 3. 추가 및 수정
-  - https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository 참고
+  
   1. 추가
     - 새로운 ledger 추가를 위해서는 invke.js 수정. 
     - createCar 함수를 통해서 CAR10 추가
@@ -360,11 +360,3 @@ var request = {
     txId: tx_id
 };
   ```
-  총 6개의 docker container 가 실행되고 있음.
-  
-    - dev-peer0.org1.example.com-fabcar-1.0.*
-    - hyperledger/fabric-tools
-    - hyperledger/fabric-peer
-    - hyperledger/fabric-ca
-    - hyperledger/fabric-couchdb
-    - hyperledger/fabric-orderer
